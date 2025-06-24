@@ -1,5 +1,6 @@
-import numpy as np
+def sayHello():
+    print('Hello, I am a python app')
 
-print('Hi this is the first line')
-
-print(np.array([2,3,4,5]))
+if __name__ == '__main__':
+    sayHello()
+    print('I am finished...')
