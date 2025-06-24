@@ -18,3 +18,5 @@ Look intot the SQLALCHEMY library and try to get python to write the cleaned fil
     - naChecker
     - dataEnrich 
 
+***IMPORTANT***
+Review the folder student_references. I have included an experimentations.ipynb notebook that may be useful to be used as inspiration (includes DATA ENRICHMENT). 
