@@ -26,7 +26,6 @@ def dateCleaner(col, df):
 
     try:
         df[col] = pd.to_datetime(df[col], dayfirst=True, errors='coerce')
-
     except Exception as e:
         print(f"Error while converting column {col} to datetime: {e}")
 

@@ -6,8 +6,8 @@ response = requests.get(url)
 
 if response.status_code == 200:
     houses = response.json()
-    #print(response.content)
+    #print(houses)
     for house in houses:
-        print(f"House: {house["house"]}, Founder: {house["founder"]}")
-else: 
-    print(f"Failed to retrieve data:{response.status_code}")
+        print(f"House: {house["house"]} and the emoji: {house["emoji"]}")
+else:
+    print(f"Failed to retrieve data: {response.status_code}")
