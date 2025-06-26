@@ -28,3 +28,27 @@ Stretch Tasks (speak to Nirosh first):
 - Using APIs:
     - Find an open API and write a new pyton script that requests data from an API and prints it.
     - List of APIs: https://github.com/public-api-lists/public-api-lists
+
+# Day 4
+
+AM Task:
+
+- Write a unit test for your python app (For the data enrichment where you calculate the number of days on loan).
+- Put your data cleaning app as a docker image, run it and show me that it works.
+
+
+
+
+References: 
+- assertEqual(a, b)	a == b
+- assertNotEqual(a, b)	a != b
+- assertTrue(x)	bool(x) is True
+- assertFalse(x)	bool(x) is False
+- assertIs(a, b)	a is b
+- assertIsNot(a, b)	a is not b
+- assertIsNone(x)	x is None
+- assertIsNotNone(x)	x is not None
+- assertIn(a, b)	a in b
+- assertNotIn(a, b)	a not in b
+- assertIsInstance(a, b)	isinstance(a, b)
+- assertNotIsInstance(a, b)	not isinstance(a, b)
