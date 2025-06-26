@@ -26,3 +26,4 @@ class TestEnrichment(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+    print('Testing Complete.')
